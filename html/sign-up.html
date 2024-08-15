@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <title>InstaPIC</title>
     <style>
         body {
@@ -63,10 +65,22 @@
             outline: none;
         }
 
-        .register-box a {
+        .register-box a{
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            color: white;
             display: block;
-           
-            margin-top: 10px;
+            text-align: center;
+        }
+        a.primary {
+            background-color: #fb8600;
+            margin-bottom: 20px;
+        }
+
+        a.primary:hover {
+            background-color: #1f1e68;
         }
     </style>
 </head>
@@ -85,11 +99,12 @@
 
             <input type="password" id="repassword" placeholder="Confirmar Contraseña"/>
             
-            <a href="home.html">Ingresar</a>
+            <a href="home.html" class="primary">Ingresar</a>
         </div>
     </main>
     <footer>
-        &copy; Derechos Reservados - Información reservada
+
+        <p>&copy; 2024 InstaPIC Company</p>
     </footer>
 </body>
 </html>
